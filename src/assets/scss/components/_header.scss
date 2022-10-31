@@ -1,0 +1,17 @@
+.container {
+    max-width: 1162px;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+}
+.mcolor-bg {
+    background-color: $mColorP;
+    a, button, ul li a {
+        color: #fff;
+        font-size: 17px;
+        a:hover {
+            color: #fff;
+            opacity: 0.7;
+        }
+    } 
+}

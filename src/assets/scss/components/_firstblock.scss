@@ -1,0 +1,134 @@
+.first-block-back {
+    background-image: url(../images/background/bg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.first-block-btns a {
+    // width: 160px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+
+    &:hover {
+        opacity: 0.8;
+    }
+    &:first-child {
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    &:last-child {
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    &:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #2D9CDB;
+    }
+    &:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        top: 25%;
+        left: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #2D9CDB;
+    }
+    &:nth-child(4)::after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #F2C94C;
+    }
+    &:nth-child(4)::before {
+        content: "";
+        position: absolute;
+        top: 25%;
+        left: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #F2C94C;
+    }
+    &:nth-child(6)::after {
+        content: "";
+        position: absolute;
+        top: 25%;
+        right: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #27AE60;
+    }
+    &:nth-child(6)::before {
+        content: "";
+        position: absolute;
+        top: 25%;
+        left: -13px;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        z-index: 2;
+        background-color: #27AE60;
+    }
+
+}
+.first-block-text {
+    margin-top: 20vh;
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 400;
+        width: 50%;
+    }
+}
+.advantages {
+    margin: 140px auto 70px;
+    figure {
+        width: calc(26% - 15px);
+        border-radius: 20px;
+        padding: 78px 28px 15px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: -75px;
+            right: 25%;
+            width: 147px;
+        }
+    }
+    figure:first-child {
+        background-color: #E849A4;
+    }
+    figure:nth-child(2) {
+        background-color:#3AC0E1;
+        
+    }
+    figure:last-child {
+        background-color: #BB6BD9;
+    }
+}
